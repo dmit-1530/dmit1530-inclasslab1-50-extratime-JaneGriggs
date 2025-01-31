@@ -45,6 +45,10 @@ p {
 
 }
 
+.main-container p:last-child {
+    padding-bottom: 3rem;
+}
+
 .image-container {
     display: flex;
     width: 40%;
