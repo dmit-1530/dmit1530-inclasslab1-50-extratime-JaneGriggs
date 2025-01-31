@@ -27,9 +27,11 @@ body {
 }
 
 .main-container {
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
-    margin-left: 8.5vw;
+    padding-left: 16vw;
+    padding-right: 6vw;
+
 }
 
 p {
@@ -38,7 +40,7 @@ p {
 }
 
 .main-container p:nth-child(2) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-bottom: 0.5rem;
 
 }
@@ -57,7 +59,7 @@ h1,
 h2,
 h3 {
     color: var(--dark-slate-gray);
-    font-family: fjalla;
+    font-family: 'fjalla one';
 }
 
 h1 {
@@ -81,6 +83,7 @@ h2 {
 
 p {
     width: 80%;
+    font-size: 0.8rem;
 }
 
 footer {
@@ -88,20 +91,19 @@ footer {
     color: var(--dark-slate-gray);
     padding-top: 3rem;
     padding-bottom: 3rem;
-
-
 }
 
 footer p {
     padding: 0.2rem;
     text-align: center;
-    font-size: 0.8rem;
-    margin: 0 auto;
+    font-size: 0.7rem;
+    margin-left: 16vw;
+
     width: 60%;
 }
 
 footer p:first-child {
     font-size: 2rem;
+    font-family: 'fjalla one';
 
-    font-family: fjalla;
 }
