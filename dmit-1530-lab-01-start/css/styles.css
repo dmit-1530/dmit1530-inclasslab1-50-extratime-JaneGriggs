@@ -8,7 +8,22 @@
     headings and button: 'Fjalla One', sans-serif;
     body copy: 'Open Sans', sans-serif;
 */
+/*Creating variables for the colours*/
+:root {
+    --night: #182222;
+    --dark-slate-gray: #405B5B;
+    --french-gray: #e2dfe7;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+
+footer {
+    background-color: var(--night);
+    color: var(--dark-slate-gray);
 }
