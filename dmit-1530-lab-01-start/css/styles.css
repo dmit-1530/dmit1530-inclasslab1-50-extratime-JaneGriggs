@@ -15,15 +15,84 @@
     --french-gray: #e2dfe7;
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
-
-
+    width: 100%;
+    font-size: 100%;
 
 }
 
+.main-container {
+    margin: auto;
+    width: 60%;
+}
+
+p {
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+}
+
+.main-container p:nth-child(2) {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.image-container {
+    display: flex;
+    width: 40%;
+    gap: 20px;
+    justify-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark-slate-gray);
+    font-family: fjalla;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    border: 2px solid var(--dark-slate-gray);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    width: 20%;
+    text-align: center;
+}
+
+
+
+p {
+    width: 80%;
+}
 
 footer {
     background-color: var(--night);
     color: var(--dark-slate-gray);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+footer p {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+footer p:first-child {
+    font-size: 2rem;
+
+    font-family: fjalla;
 }
